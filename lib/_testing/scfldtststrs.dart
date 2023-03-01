@@ -30,8 +30,8 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       appBar: AppBar(
         title: const Text('My AppBar'),
       ),
-      body: const Center(
-        child: Text('this is the center body'),
+      body: Center(
+        child: Text('this is the center body $count'),
       ),
       drawer: Drawer(
         child: ListView(
@@ -68,7 +68,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       bottomNavigationBar: BottomAppBar(
         shape: const CircularNotchedRectangle(),
         child: Container(
-          height: 30,
+          height: 80,
         ),
       ),
       floatingActionButton: FloatingActionButton(
