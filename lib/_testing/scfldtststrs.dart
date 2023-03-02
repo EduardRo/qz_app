@@ -61,7 +61,14 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
             ListTile(
               title: const Text('Item 3'),
               onTap: () {},
-            )
+            ),
+            ListTile(
+              title: const Text('Item 4'),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
           ],
         ),
       ),
